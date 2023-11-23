@@ -1,0 +1,357 @@
+.Head{
+width: 100%;
+font-size: 45px;
+font-weight: 400;
+z-index: 900;
+    text-align: center;  
+  align-items: center;
+}
+.Head h3{
+display: inline;
+padding-right: 13px;
+    width: 100%;
+font-size: 30px;
+font-weight: 90px;
+z-index: 900;
+ color: black;
+    text-align: center;  
+  align-items: center;
+}
+.Head button{
+    font-size: 30px;
+    width: 400px;
+    height: 70px;
+font-weight: 50px;
+border-radius: 15px;
+background-color: white;
+box-shadow: 5px 10px royalblue;
+
+}
+.Head1{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.Head1 div{
+   width: 600em;
+    display: flex;
+    font-style: aqua;
+    flex-direction: row;
+       justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+border-top-right-radius: 40px;
+border-bottom-left-radius: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 95px;
+    position: relative;
+
+}
+.Head2{
+    display: block;
+    padding-left: 20px;
+    padding-top: 0;
+}
+.Head2 .div1{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 300; 
+    margin-left: 20px;   
+    text-align: left;
+}
+.Head2 .div2{
+margin-top: 0px;
+}
+.Head2 .div0{
+display: flex;
+}
+.Head2 button{
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 220px;
+    height: 35px;
+    background-color: white;
+    box-shadow: 5px 5px royalblue;
+}
+.Head3{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 0;
+    padding-top: 0;
+}
+.Head3 .div1{
+    display: block;
+    margin-left: 300px;
+    justify-content: flex-end;
+}
+.Head3 .div1 button{
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 220px;
+    height: 35px;
+    background-color: white;
+    box-shadow: 5px 5px royalblue;
+}
+.Head4{
+    display: flex;
+    padding-right: 0;
+    padding-top: 0;
+}
+.Head4 img{
+    display: block;
+    margin-left: 300px;
+}
+.Head4 .div1 button{
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 220px;
+    height: 35px; 
+    background-color: white;
+    box-shadow: 5px 5px royalblue;
+}
+.Head5{
+    padding-bottom: 0px;
+}
+
+.Head5 .div1{
+    display: inline;
+        width: 100%;
+    font-size: 30px;
+    font-weight: 90px;
+    z-index: 900;
+     color: black;
+        text-align: center;  
+      align-items: center;   
+}
+.Head5 .div2{
+    justify-content: center;
+    display: flex;
+
+}
+.Head6{
+    padding-top: 60px;
+padding-left:0px;
+padding-right: 0px;
+}
+.Head6 .div1{
+    text-align: center;
+}
+.Head6 .div2{
+display: flex;
+}
+.Head7{
+    text-align: start;
+    justify-content: flex-start;
+}
+.Head7 .div1{
+    padding: 0;
+    text-align: start;
+    justify-content: flex-start;
+}
+.accordion {
+    width: 100%;
+  }
+  
+  .accordion-item {
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+  }
+  .accordionitem {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-title {
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .accordiontitle {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-item.active .accordion-title {
+    background-color: #fff;
+    color: royalblue;
+  }
+  .accordionitem.active .accordiontitle {
+    color: black;
+  }
+ 
+/* ... Existing styles ... */
+
+.arrow {
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+   .accordion-item.active .arrow {
+    transform: rotate(45deg);
+  } 
+   
+   .accordionitem.active .arrow {
+    transform: rotate(45deg);
+  } 
+  .Head8{
+    justify-content: center;
+    text-align: center;
+  }
+  .Head8 .div1 button{
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 8px;
+    width: 320px;
+    height: 35px; 
+    background-color: white;
+    box-shadow: 5px 5px royalblue;
+}
+table{
+ 
+    width: 100%;
+}
+.Head8 .div2{
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+.Head8 .div3{
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+td{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.Head9{
+    background-color: royalblue;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 0;
+}
+.Head9 .div1{
+    margin-right: 100px;
+}
+.Head0{
+    padding: 0;
+    display: flex;
+}
+.Head0 .div1{
+    display: inline;
+margin-left: 97px;
+    width:20%;
+justify-content: flex-start;
+text-align: start;
+}
+.Head0 .div2{
+    display: inline;
+    margin-left: 20px;
+width:20%;
+justify-content: flex-start;
+text-align: start;
+}
+.Head0 .div3{
+    display: inline;
+    margin-left: 20px;
+width:20%;
+justify-content: flex-start;
+text-align: start;
+}
+.Head0 .div4{
+    display: inline;
+    margin-left: 20px;
+width:20%;
+justify-content: flex-start;
+text-align: start;
+}
+.Head0 .div1 h4{
+    text-align: center;
+font-size: 13px;
+color:rgb(75, 74, 74);
+}
+.Head0 .div1 h2{
+    text-align: center  ;
+color: royalblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 23px;
+
+
+}
+.Head0 .div2 h4{
+    text-align: center;
+    font-size: 13px;
+color: rgb(75, 74, 74);
+}
+.Head0 .div2 h2{
+    text-align: center  ;
+    font-size: 25px;
+
+    color: royalblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Head0 .div3 h4{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(75, 74, 74);
+}
+.Head0 .div3 h2{
+    color: royalblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center  ;
+}
+.Head0 .div4 h4{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(75, 74, 74);
+}
+.Head0 .div4 h2{
+    color: royalblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center  ;
+}
+.sec_fix{
+    display: flex;
+    position: absolute;
+    padding-top: 5%;  
+    padding-left: 30%;  
+}
+.fix_sect{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: royalblue;
+    width: 40%;
+    height: 80%;
+    border-radius: 20px ;
+    border-style: solid;
+    z-index: 99999;
+}

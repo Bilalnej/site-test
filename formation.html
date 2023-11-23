@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <link rel="icon" type="image/x-icon" href="unX.png" />
+   <link rel="canonical" href="https://www.triqna.ma">
+   
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="triqnama,triqna,education triqnama,Triqna.ma Empowering Knowledge and Learning,
+Triqna.ma  Your Gateway to Learning and Discovery,
+Welcome to Triqna.ma - Unleash Your Learning Potential,
+Triqna.ma: Connecting Curiosity with Knowledge,
+Discover, Learn, and Grow with Triqna.ma,
+Triqna.ma - Unlocking the Power of Education and Exploration,
+Empower Yourself with Triqna.ma - A World of Learning Awaits,
+Triqna.ma Expand Your Mind, Enhance Your Skills,
+Welcome to Triqna.ma - Your Pathway to Knowledge,
+Triqna.ma: Embrace the Joy of Lifelong Learning,Triqna.ma - Valoriser le savoir et l'apprentissage,Triqna.ma Votre passerelle vers l'apprentissage et la découverte,Bienvenue sur Triqna.ma - Libérez votre potentiel d'apprentissage
+,Triqna.ma : Connectez votre curiosité au savoir
+,Découvrez, apprenez et grandissez avec Triqna.ma
+,Triqna.ma - Libérez la puissance de l'éducation et de l'exploration,Donnez-vous les moyens avec Triqna.ma - Un monde d'apprentissage vous attend
+,Triqna.ma Développez votre esprit, améliorez vos compétences,Bienvenue sur Triqna.ma - Votre voie vers le savoir,Triqna.ma : Embrassez la joie de l'apprentissage tout au long de la vie">
+    <meta name="google-site-verification" content="FqMwfc89JBoVhUNS5b_k0CpIEPVIYdyTIFLqcU6-gYA" />
+    
+    <script src="https://www.google-analytics.com/analytics.js"></script>
+    <meta name="description" content="Le soutien scolaire est extrêmement bénéfique pour les élèves de tous les âges, les cours de soutien aident les élèves à développer les compétences dont ils ont besoin pour réussir à l’école, au collège, au lycée, à l’université, et même au-delà.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+	crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="index-style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Newstyle.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/templatemo-topic-listing.css" rel="stylesheet">    
+    <title  >TRIQNA</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script defer src="imgmove.js"></script>
+    <script  src="Wonscroll.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="Form.js"></script>
+    <script src="Script.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".accordion-title").click(function() {
+    const accordionItem = $(this).parent();
+    accordionItem.toggleClass("active");
+    accordionItem.find(".accordion-content").slideToggle();
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(".accordiontitle").click(function() {
+    const accordionItem = $(this).parent();
+    accordionItem.toggleClass("active");
+    accordionItem.find(".accordion-content").slideToggle();
+  });
+});
+</script>
+<script>
+  function Poe(){
+  let v;
+  v = document.getElementById("PoE").value;
+  if(v == 'Formation')
+  {
+  document.getElementById("Eleve").style.display = "inline";
+  document.getElementById("Parent").style.display = "none";
+  }  else if (v == "Cours soutien")
+  {
+  document.getElementById("Parent").style.display = "flex";
+  document.getElementById("Eleve").style.display = "none";
+  }
+  else {
+    document.getElementById("Parent").style.display = "none";
+  document.getElementById("Eleve").style.display = "none";
+  }
+}
+
+  function activeform(){
+    document.getElementById("ActiveForm").style.display = "flex";
+  }
+  function desactiveform(){
+    document.getElementById("ActiveForm").style.display = "none";
+  }
+  
+</script>
+
+    <style>
+     
+    </style>
+<body id="page-top" >
+  <section class="sec_fix" id="ActiveForm" style="display: none;" >
+    <div class="fix_sect" style="text-align:end;" >
+      <a href="#" onclick="desactiveform()" style="margin-left: 100%;" ><i class="fa" style="right: 0;font-size: 40;color: red;">&#xf00d;</i></a>
+      <form id="consultation-form" onsubmit="sendEmail(); reset();return false;" class="feed-form" style="margin-top: 0;" action="#" method="post" enctype="text/plain">
+        <input class="Form-r" id="name" required="" placeholder="Nom et Prénom" type="text">
+        <input class="Form-r" id="phone" name="phone" required="" placeholder="Téléphone" type="tel">
+        <input class="Form-r" id="email" name="email" required="" placeholder="E-mail" type="email">
+        <select onchange="Poe()"  name="" id="PoE" required>
+          <option value="0"></option>
+          <option value="Formation">Formation</option>
+          <option value="Cours soutien">Cours soutien</option>
+        </select>
+        <div id="Eleve" style="display: none; width: 100%;">
+        <select id="formation" style="width: 100%;"  >
+          <option value=""></option>
+          <option value="Developpement Web">Developpement Web</option>
+          <option value="Motion Graphic">Motion Graphic</option>
+          <option value="Design Graphic">Design Graphic</option>
+        </select>
+      </div>
+      <div id="Parent" style="display: none; width: 100%;">
+        <select id="niveau" style="width: 50%; margin-right: 5px;" >
+          <option value=""></option>
+          <option value="Maths">Maths</option>
+          <option value="Physique">Physique</option>
+          <option value="SVT">SVT</option>
+          <option value="Philosophie">Philosophie</option>
+          <option value="Français">Français</option>
+          <option value="Anglais">Anglais</option>
+        </select>
+        <select id="cours" style="width: 50%;" >
+          <option value=""></option>
+          <option value="1ér AC">1ér AC</option>
+          <option value="2éme AC">2éme AC</option>
+          <option value="3éme AC">3éme AC</option>
+          <option value="Tronc commun">Tronc commun</option>
+          <option value="1Bac (Experimentale)">1Bac (Experimentale)</option>
+          <option value="1Bac (SM)">1Bac (SM)</option>
+          <option value="1Bac (STE et STM)">1Bac (STE et STM)</option>
+          <option value="2bac (SM)">2bac (SM)</option>
+          <option value="2bac (PC)">2bac (PC)</option>
+          <option value="2bac (SVT)">2bac (SVT)</option>
+          <option value="2Bac (STE et STM)">2Bac (STE et STM)</option>
+        </select>
+      
+        </div>
+        <input type="submit"  class="button_submit" value="Envoyer" style="background-color: red;">
+    </form>
+    </div>
+  </section>
+<secttion id="Os">
+       
+       <nav
+        
+		class="navbar navbar-expand-lg bg-light text-uppercase fixed-top"
+		id="mainNav" >
+        <div class="container" >
+            <img src="unX.png" class="img2" style="display:normal; width: 50px; height: 50px;position: relative;margin-left: 10px;" alt="">
+             
+        <a  class="navbar-brand" href="#page-top" style="color: #3a6cf4;" >TRIQNA</a>
+			<button
+				class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+				type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+				aria-expanded="false" aria-label="Toggle navigation">
+				Menu <i class="fas fa-bars"></i>
+			</button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Home</a></li>
+            <li class="nav-item mx-0 mx-lg-1">
+              
+              <div class="accordion">
+                <div class="accordionitem" >
+                    
+                  <a class="accordiontitle nav-link py-3 px-0 px-lg-3 rounded"> 
+                      
+                    Services
+                    <i class="arrow right"></i>
+                  </a>
+                  <div style="position: absolute;background-color: rgb(84, 94, 126);  border-bottom-right-radius: 15px;">
+                  <div class="accordion-content"><a href="">Formation</a></div>
+                  <div class="accordion-content"><a href="">Accompagnement scolaire</a></div>
+</div>
+                </div>
+
+          </div>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#border-form">Form</a></li>
+           <div class="cadre"> <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="webapp/login.php" style="color:black;" >Login</a></li></div>
+        </ul>
+        </div>
+        
+        </div>
+        </nav>
+    
+    
+   
+        <section class="explore-section section-padding" id="section_2">
+          <div class="container">
+              <div class="row">
+
+                  <div class="col-12 text-center">
+                      <h2 class="mb-4">Browse Topics</h1>
+                  </div>
+
+              </div>
+          </div>
+
+          <div class="container-fluid">
+              <div class="row">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Design</button>
+                      </li>
+
+                      <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Marketing</button>
+                      </li>
+
+                      <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Finance</button>
+                      </li>
+
+                      <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Music</button>
+                      </li>
+
+                      <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="false">Education</button>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="container">
+              <div class="row">
+
+                  <div class="col-12">
+                      <div class="tab-content" id="myTabContent">
+                          <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                              <div class="row">
+                                  <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Web Design</h5>
+
+                                                      <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
+                                                  </div>
+
+                                                  <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Graphic</h5>
+
+                                                          <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-design rounded-pill ms-auto">75</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-4 col-md-6 col-12">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Logo Design</h5>
+
+                                                          <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-design rounded-pill ms-auto">100</span>
+                                              </div>
+
+                                              <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
+                              <div class="row">
+                                  <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                          <div class="custom-block bg-white shadow-lg">
+                                              <a href="topics-detail.html">
+                                                  <div class="d-flex">
+                                                      <div>
+                                                          <h5 class="mb-2">Advertising</h5>
+
+                                                          <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                      </div>
+
+                                                      <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                                  </div>
+
+                                                  <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                                              </a>
+                                          </div>
+                                      </div>
+
+                                      <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                          <div class="custom-block bg-white shadow-lg">
+                                              <a href="topics-detail.html">
+                                                  <div class="d-flex">
+                                                      <div>
+                                                          <h5 class="mb-2">Video Content</h5>
+
+                                                          <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                      </div>
+
+                                                      <span class="badge bg-advertising rounded-pill ms-auto">65</span>
+                                                  </div>
+
+                                                  <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                              </a>
+                                          </div>
+                                      </div>
+
+                                      <div class="col-lg-4 col-md-6 col-12">
+                                          <div class="custom-block bg-white shadow-lg">
+                                              <a href="topics-detail.html">
+                                                  <div class="d-flex">
+                                                      <div>
+                                                          <h5 class="mb-2">Viral Tweet</h5>
+
+                                                          <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                      </div>
+
+                                                      <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                                  </div>
+
+                                                  <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                            </div>
+
+                          <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">   <div class="row">
+                                  <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Investment</h5>
+
+                                                      <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-finance rounded-pill ms-auto">30</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-6 col-12">
+                                      <div class="custom-block custom-block-overlay">
+                                          <div class="d-flex flex-column h-100">
+                                              <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
+
+                                              <div class="custom-block-overlay-text d-flex">
+                                                  <div>
+                                                      <h5 class="text-white mb-2">Finance</h5>
+
+                                                      <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
+
+                                                      <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                                  </div>
+
+                                                  <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                              </div>
+
+                                              <div class="social-share d-flex">
+                                                  <p class="text-white me-4">Share:</p>
+
+                                                  <ul class="social-icon">
+                                                      <li class="social-icon-item">
+                                                          <a href="#" class="social-icon-link bi-twitter"></a>
+                                                      </li>
+
+                                                      <li class="social-icon-item">
+                                                          <a href="#" class="social-icon-link bi-facebook"></a>
+                                                      </li>
+
+                                                      <li class="social-icon-item">
+                                                          <a href="#" class="social-icon-link bi-pinterest"></a>
+                                                      </li>
+                                                  </ul>
+
+                                                  <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
+                                              </div>
+
+                                              <div class="section-overlay"></div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+                              <div class="row">
+                                  <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Composing Song</h5>
+
+                                                      <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-music rounded-pill ms-auto">45</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Online Music</h5>
+
+                                                      <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-music rounded-pill ms-auto">45</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-4 col-md-6 col-12">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Podcast</h5>
+
+                                                      <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-music rounded-pill ms-auto">20</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
+                              <div class="row">
+                                  <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Graduation</h5>
+
+                                                      <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-education rounded-pill ms-auto">80</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-6 col-12">
+                                      <div class="custom-block bg-white shadow-lg">
+                                          <a href="topics-detail.html">
+                                              <div class="d-flex">
+                                                  <div>
+                                                      <h5 class="mb-2">Educator</h5>
+
+                                                      <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                  </div>
+
+                                                  <span class="badge bg-education rounded-pill ms-auto">75</span>
+                                              </div>
+
+                                              <img src="images/topics/undraw_Educator_re_ju47.png" class="custom-block-image img-fluid" alt="">
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+              </div>
+          </div>
+      </section>
+
+    
+  <section>
+
+  </section>
+  <section>
+
+  </section>
+  <section>
+
+  </section>
+  
+<div>
+
+
+</div>
+  
+<div>
+
+  
+</div>
+
+  
+<div>
+
+  
+</div>
+
+
+<footer class="footer" >
+       
+        <!--<p class="footer-title"><i class="fas fa-copyright "></i> Copyrights 2023 <span>TRIQNA.</span></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100091167553841" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/triqna/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/triqna_/" target="_blank"><img class="Te " src="instagram.png" ></a>
+            <a href="https://www.youtube.com/channel/UComBcX2gUMXkHLErfcmFTQA" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>-->
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+    
+        </ul>
+        <p>&copy;2022 Triqna | All Rights Reserved</p>
+    </footer>
+   
+   
+</secttion>
+
+
+	
+</body>
+
+</html>
+<script>
+  let x=0;
+  window.addEventListener('scroll',()=>{
+
+   const content = document.querySelectorAll('.counter');
+    let contentPosition = content[0].getBoundingClientRect().top;
+    let screenPosition = window.innerHeight/2;
+    if (contentPosition < screenPosition && x == 0)
+  {
+    x=1;
+  const counters = document.querySelectorAll('.counter')
+ 
+ counters.forEach(counter => {
+     counter.innerText = '0'
+ 
+     const updateCounter = () => {
+         const target = +counter.getAttribute('data-target')
+         const c = +counter.innerText
+ 
+         const increment = target / 200
+ 
+         if(c < target) {
+             counter.innerText = `${Math.ceil(c + increment)}`
+             setTimeout(updateCounter, 1)
+         } else {
+             counter.innerText = target
+         }
+     }
+ 
+     updateCounter()
+ })
+}
+});
+
+ </script>
+   <!-- JAVASCRIPT FILES -->
+   
+   <script src="js/bootstrap.bundle.min.js"></script>
+</html>
